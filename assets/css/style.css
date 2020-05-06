@@ -65,12 +65,15 @@ section {
 
 .header-nav {
   margin-bottom: 3rem;
+  padding-left: 8px;
 }
 
-.nav a {
+.header-nav a {
   text-decoration: none;
   color: inherit;
-  padding: 0.8rem 0.9rem;
+  padding: 15px 15px;
+  margin-right: 5px;
+  margin-bottom: 20px;
   display: inline-block;
   border: 1px solid #78787d;
   border-radius: 10px;
