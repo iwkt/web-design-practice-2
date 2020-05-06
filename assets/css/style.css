@@ -65,7 +65,7 @@ section {
 }
 
 .header-nav {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .nav a {
@@ -97,13 +97,13 @@ a:hover {
   background-position: center top;
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 30vh;
   margin: 0;
 }
 
 @media (max-width: 36em) {
   .header-img {
-    height: 28vh;
+    height: 17vh;
     width: 100%;
   }
 }
