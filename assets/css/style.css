@@ -1,0 +1,145 @@
+* {
+  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+  text-decoration: none;
+}
+
+/* ---- Typography ----*/
+body {
+  font-family: Lato;
+  color: #3c3c41;
+}
+
+header, main {
+  margin: 0 5%;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  margin: 0 5%;
+}
+
+.header-title {
+  text-transform: uppercase;
+}
+
+@media (max-width: 36rem) {
+  .header-title {
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  .header-title h1 {
+    margin-bottom: 0;
+  }
+}
+
+.header-nav {
+  margin-bottom: 3rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  display: inline-block;
+  border: 1px solid #78787d;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+a:hover {
+  color: teal;
+  border-color: teal;
+}
+
+@media (max-width: 36em) {
+  .nav a {
+    width: 100%;
+  }
+}
+
+.header-img {
+  background-image: url(../../assets/images/maccoffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  margin: 0;
+}
+
+@media (max-width: 36em) {
+  .header-img {
+    height: 28vh;
+    width: 100%;
+  }
+}
+
+header {
+  margin-bottom: 5rem;
+}
+
+main {
+  margin-bottom: 5rem;
+}
+
+.what-me p {
+  margin-bottom: 3rem;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 2rem 0 1rem 0;
+  padding: 0;
+}
+
+footer.grid {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
